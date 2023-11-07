@@ -1,0 +1,62 @@
+
+* {
+    background-color: whitesmoke;
+}
+
+#h1Div {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-top: 2rem;
+}
+
+h1 {
+    color: darkcyan;
+    font-size: xxx-large;
+    font-family: "Lucida Grande";
+}
+
+#searchHereDiv {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin-top: 3rem;
+}
+
+p {
+    color: black;
+    font-size: x-large;
+    font-family: AppleGothic;
+}
+
+#searchFieldDiv {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#searchFieldDiv input {
+    padding: 15px 25px ;
+}
+
+#searchFieldDiv button {
+    margin-left: 2rem;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    padding:15px;
+    min-height:30px;
+    min-width: 120px;
+}
+
+#searchFieldDiv button:hover {
+    background-color: #7ebb88;
+    transition: 0.7s;
+}
+
+#gifImgDiv {
+    display: block;
+    justify-content: center;
+    margin-top: 2rem;
+}
