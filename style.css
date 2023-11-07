@@ -1,18 +1,20 @@
 
-* {
-    background-color: whitesmoke;
+@media (max-width: 600px) {
+    * {
+        background-color: whitesmoke;
+    }
 }
 
 #h1Div {
     display: flex;
     justify-content: center;
     height: 120px;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 h1 {
     color: darkcyan;
-    font-size: xxx-large;
+    font-size: 5rem;
     font-family: "Lucida Grande";
 }
 
@@ -39,6 +41,10 @@ p {
     padding: 15px 25px ;
 }
 
+#inputNumber {
+    margin-left: 10px;
+}
+
 #searchFieldDiv button {
     margin-left: 2rem;
     background-color:#0a0a23;
@@ -60,3 +66,4 @@ p {
     justify-content: center;
     margin-top: 2rem;
 }
+
